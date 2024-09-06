@@ -7,8 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      borderColor: {
-        DEFAULT: 'hsl(var(--border))',
+      colors: {
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
       },
     },
   },
